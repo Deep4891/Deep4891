@@ -1,0 +1,19 @@
+//How to switch variables
+
+public class Main3 {
+
+	public static void main(String[] args) {
+	String x= "Water";
+	String y= "Kool-Aid";
+	String temp; //Have a new variable to switch the contents of Var x and Var y
+	temp=x;
+	x=y;
+	y=temp;
+	
+	System.out.println("x : "+x);
+	System.out.println("y : "+y);
+	
+
+	}
+
+}
