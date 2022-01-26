@@ -1,0 +1,11 @@
+public class Main {
+public static void main(String[] args) {
+	int x=127; //declaration of a  variable
+	float y=12.6f; //Assignment
+	double z=12.6; //Dont' need an 'f' AND more precise
+	char symbol= '@'; // Char data type requires single quotes
+	String name="Deep Singh";
+	System.out.println("My number is :"+ x);
+	System.out.println("Waheguru Ji Ka Khalsa, Waheguru Ji Ki Fateh:"+" "+ name);
+		}
+	}
